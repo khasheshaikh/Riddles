@@ -1,0 +1,17 @@
+.main{
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: #678983;
+    padding: 40px;
+}
+.back{
+    background-color: black;
+    padding: 300px 200px;
+
+}
+.back{
+    background-color: black;
+    margin: 0px 0px !important;
+    
+}
