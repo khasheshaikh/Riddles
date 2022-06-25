@@ -12,8 +12,8 @@ export const Home = () => {
       const result = await axios(
         "https://us-central1-dadsofunny.cloudfunctions.net/DadJokes/random/type/general"
       );
-      //console.log(result.data)
-      setJoke(`${result.data[0].setup} ${result.data[0].punchline}`);
+      console.log(result.data)
+      setJoke(`${result.data[0].setup}${result.data[0].punchline}`);
     };
     fetchData();
   }, [fetching]);
